@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
-## functions do
+## The functions below put a matrix in the cache and compute 
+## its inverse
 
-## Write a short comment describing this function
+## makeCacheMatrix compute the inverse of the input matrix (x), and store it in a v 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL

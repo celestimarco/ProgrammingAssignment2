@@ -1,7 +1,8 @@
 ## The functions below put a matrix in the cache and compute 
 ## its inverse
 
-## makeCacheMatrix compute the inverse of the input matrix (x), and store it in a v 
+## makeCacheMatrix compute the inverse of the input matrix (x), and store it in 
+## a vector defined by the use (e.g. pippo <- ) 
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
